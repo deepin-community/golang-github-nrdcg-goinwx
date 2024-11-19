@@ -1,5 +1,45 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-nrdcg-goinwx (0.8.1-1.2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 29 Nov 2022 20:36:00 +0000
+
+golang-github-nrdcg-goinwx (0.8.1-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Add Breaks: golang-github-xenolf-lego-dev (<< 3.2.0-3~).
+    (Closes: #981094)
+
+ -- Adrian Bunk <bunk@debian.org>  Wed, 10 Feb 2021 01:50:40 +0200
+
+golang-github-nrdcg-goinwx (0.8.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * reverse dependencies successfully built with ratt:
+    - nothing todo for this package
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Sat, 21 Nov 2020 20:32:42 +0000
+
+golang-github-nrdcg-goinwx (0.6.1-3) unstable; urgency=medium
+
+  * debian/copyright: add full name of Andrew (Closes: #944066)
+  * debian/control: use dh12
+  * debian/control: bump standard to 4.5.0 (no changes)
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Mon, 23 Mar 2020 18:43:01 +0100
+
+golang-github-nrdcg-goinwx (0.6.1-2) unstable; urgency=medium
+
+  * upload source package
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Sun, 08 Dec 2019 20:43:01 +0000
+
+golang-github-nrdcg-goinwx (0.6.1-1) unstable; urgency=medium
 
   * Initial release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Thorsten Alteholz <debian@alteholz.de>  Sat, 02 Nov 2019 11:33:10 +0100
